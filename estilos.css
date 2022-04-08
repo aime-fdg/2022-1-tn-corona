@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital@0;1&family=Averia+Serif+Libre:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@900&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body {
+	font-family: 'Averia Serif Libre', serif;
+	color: #F4EDE1;
+	background-color: #2B4937;
+}
+
+h2 {
+	font-size: 2.7em;
+	padding: 20px 0;
+}
+
+h3 {
+	font-size: 2em;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #F4EDE1;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Averia Libre', sans;
+	font-weight: 400;
+	font-size: 1.3em;
+	letter-spacing: 1px;
+}
+
+/*-----------------HEADER-------------------*/
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 6em;
+}
+
+header {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------DERIPCIÓN-------------------*/
+
+main {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#presentacion {
+	border: solid;
+	border-color: #F4EDE1;
+	border-width: 2px;
+	border-radius: 25px;
+	padding: 30px;
+	margin: 40px 15px;
+	max-width: 1000px;
+	display: flex;
+    align-items: center;
+}
+
+#presentacion img {
+	border-radius: 20px;
+}
+
+#presentacion p {
+	font-style: italic;
+	font-size: 1.5em;
+	margin: 20px;
+}
+
+/*------------------SKILLS-------------------*/
+
+#skills {
+	background-color: #417556;
+	border-radius: 20px;
+	padding: 30px;
+	width: 300px;
+	margin: 0 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+#skills ul p {
+	font-size: 2.5em;
+	text-align:center; 
+}
+
+#idiomas h4 {
+	padding-top: 30px;
+	text-align: center;
+}
+
+#idiomas {
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #F4EDE1;
+	padding-bottom: 20px;
+}
+
+.skill_lleno {
+	height: 35px;
+    width: 35px;
+    box-sizing: content-box;
+    margin: 5px;
+    border-radius: 100%;
+	background-color: #F4EDE1;
+}
+
+.skill_vacio {
+	height: 31px;
+    width: 31px;
+    box-sizing: content-box;
+    margin: 5px;
+    border-radius: 100%;
+	border: solid;
+	border-width: 2px;
+}
+
+.aptitudes {
+	display: flex;
+}
+
+.trayectoria {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px
+}
+
+/*------------------EXPERIENCIA-------------------*/
+
+.italicas-oscuras {
+	font-family: 'Averia Libre', sans;
+	font-style: italic;
+	color: #ACA599;
+	padding-left: 40px;
+} 
+
+/*------------------TRABAJEMOS-------------------*/
+
+#trabajemos {
+	background-color: #BC8456;
+	height: 260px;
+	margin: 50px 0;
+}
+
+footer {
+	background-color: #1D1F1D;
+	height: 170px;
+}
+
+footer p {
+	font-style: italic;
+	letter-spacing: 0.3px;
+}

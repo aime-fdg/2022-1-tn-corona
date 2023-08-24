@@ -37,7 +37,17 @@ h4 {
 	letter-spacing: 1px;
 }
 
+.flex {
+	display: flex;
+}
+
 /*-----------------HEADER-------------------*/
+
+main {
+	/*display: flex;*/
+	align-items: center;
+	flex-direction: column;
+}
 
 h1 {
 	font-family: 'Playfair Display', serif;
@@ -45,28 +55,19 @@ h1 {
 	font-size: 6em;
 }
 
-header {
-	display: flex;
-    justify-content: center;
-}
-
 header img {
 	margin: 20px;
 }
 
 .logo-container {
-	display: flex;
+	/*display: flex;*/
+	justify-content: center;
 	max-width: 1000px;
 	width: 100%;
 }
 
 /*------------------DERIPCIÓN-------------------*/
 
-main {
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 #presentacion {
 	border: solid;
@@ -76,8 +77,8 @@ main {
 	padding: 30px;
 	margin: 40px 15px;
 	max-width: 1000px;
-	display: flex;
-    align-items: center;
+	/*display: flex;*/
+	align-items: center;
 }
 
 #presentacion img {
@@ -98,8 +99,6 @@ main {
 	padding: 0 30px;
 	width: 300px;
 	margin: 0 15px;
-	display: flex;
-	flex-direction: column;
 }
 
 #skills ul p {
@@ -120,14 +119,10 @@ main {
 }
 
 #habilidades {
-	display: flex;
-	flex-direction: column;
 	margin: 10px 0;
 }
 
 #habilidades li {
-	display: flex;
-	align-items: center;
 	margin: 15px 0;
 }
 
@@ -139,40 +134,29 @@ main {
 	margin-left: 7px;
 }
 
-.skill_nivel {
-	display: flex;
-
-}
-
 .skill_lleno {
 	height: 35px;
-    width: 35px;
-    box-sizing: content-box;
-    margin: 5px;
-    border-radius: 100%;
+	width: 35px;
+	/*box-sizing: content-box;*/
+	margin: 5px;
+	border-radius: 100%;
 	background-color: #F4EDE1;
 }
 
 .skill_vacio {
 	height: 31px;
-    width: 31px;
-    box-sizing: content-box;
-    margin: 5px;
-    border-radius: 100%;
+	width: 31px;
+	box-sizing: content-box;
+	margin: 5px;
+	border-radius: 100%;
 	border: solid;
 	border-width: 2px;
 }
 
-.aptitudes {
-	display: flex;
-}
-
 .trayectoria {
-	display: flex;
-	flex-direction: column;
-    max-width: 800px;
-    width: 80%;
-	padding-left: 10%
+	/*max-width: 800px;*/
+	width: 80%;
+	padding-left: 10%;
 }
 /*------------------EXPERIENCIA-------------------*/
 
@@ -197,18 +181,18 @@ main {
 	background-color: #BC8456;
 	height: 260px;
 	margin: 50px 0;
+	width: 100%;
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	width: 100%
+	align-items: center;
 }
 
 footer {
 	background-color: #1D1F1D;
 	height: 170px;
 	display: flex;
+	justify-content: space-around;
 	align-items: center;
-    justify-content: space-evenly;
 }
 
 footer p {
